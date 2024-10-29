@@ -1,15 +1,9 @@
-import React, { useState,useEffect } from "react"
-import Loading from "./components/loadingPage"
-import Main from "./components/mainPage"
+import React from 'react';
 
 function App() {
-
   return (
-    <>
-      <Loading></Loading>
-      <Main></Main>
-    </>
-  )
+    <h1>Hello World!</h1>
+  );
 }
 
-export default App
+export default App;
